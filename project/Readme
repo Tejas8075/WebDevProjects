@@ -1,0 +1,11 @@
+Make a rectangle, and when we move mouse on that rectangle's left side we want to gradually change he color of that rectangle to red and when we move mouse to the right side we want to change the color to blue.
+
+Steps
+Step1 : Sabse pahele ye pata karo ki mouse rectangle par aaya and move hua ya nahi.
+
+Step2 : Ab ye calculate karo ke hum center se left par hai ya center se right par hai.
+
+Step3 : Ab ye calvulate karo ke hum center se kitna left ya right par hai and utni intensity se color badhao.
+
+<!-- left : 411.6000061035156
+top : 247.60000610351562 -->
