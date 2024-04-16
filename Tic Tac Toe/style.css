@@ -39,6 +39,11 @@ h1{
     align-items: center;
 }
 
+.box:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
 .winner{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -50,4 +55,27 @@ h1{
     border-radius: 0.3rem;
     box-shadow: 1px 3px 2px #888888 ;
     color: aliceblue;
+    transition: all ease 0.5s;
+}
+
+.resetbtn:hover{
+    background-color: rgb(209, 129, 31);
+    cursor: pointer;
+}
+
+/* Utility Classes */
+.bt{
+    border-top: none;
+}
+
+.br{
+    border-right: none;
+}
+
+.bl{
+    border-left: none;
+}
+
+.bb{
+    border-bottom: none;
 }
