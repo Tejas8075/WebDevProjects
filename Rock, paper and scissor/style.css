@@ -10,9 +10,9 @@ body{
     background-color: aqua;
 }
 
-.gameContainer{
-    /* border: 2px solid red; */
-}
+/* .gameContainer{
+    border: 2px solid red;
+} */
 
 h2{
     text-align: center;
@@ -139,9 +139,9 @@ h2{
     background-color: blueviolet;
 }
 
-.scissor{
-    /* border: 2px solid navy;  */
-}
+/* .scissor{
+    border: 2px solid navy; 
+} */
 
 .scissor img{
     width: 5vw;
@@ -165,9 +165,9 @@ h2{
     background-color: blueviolet;
 }
 
-.Paper{
-    /* border: 2px solid navy;  */
-}
+/* .Paper{
+    border: 2px solid navy; 
+} */
 
 .Paper img{
     width: 5vw;
