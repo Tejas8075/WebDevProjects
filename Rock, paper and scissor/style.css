@@ -4,3 +4,230 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.gameContainer{
+    /* border: 2px solid red; */
+}
+
+h2{
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: cornflowerblue;
+    width: 35vw;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+#display{
+    /* border: 2px solid #7fff00; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    /* flex: repeat(2, 3vw); */
+    
+}
+
+.image1{
+    /* border: 2px solid black; */
+    margin-left: 22px;
+}
+
+.image1 img{
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+#selected1{
+    /* border: 2px solid rebeccapurple; */
+    width: 35vw;
+    height: 41vh;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#selected1:hover{
+    background-color: rgb(135, 222, 246);
+}
+
+.image1 p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.image2{
+    /* border: 2px solid black; */
+    margin-right: 22px;
+}
+
+.image2 img{
+    border-radius: 5px;
+    border: 5px solid black;
+    
+}
+
+#selected2{
+    /* border: 2px solid rebeccapurple; */
+    width: 35vw;
+    height: 41vh;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#selected2:hover{
+    background-color: rgb(135, 222, 246);
+}
+
+.image2 p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.imageSelection{
+    /* border: 2px solid gray; */
+    margin-top: 1rem;
+    width: 20vw;
+}
+
+.imageSelection h3{
+    /* border: 2px solid teal; */
+    background-color: burlywood;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+.choose{
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.rock{
+    /* border: 2px solid navy;  */
+    text-align: center;
+}
+
+.rock img{
+    width: 5vw;
+    height: 9vh;
+    margin-top: 0.2rem;
+    margin-left: 0.8rem;
+    border-radius: 3px;
+}
+
+.chbtn{
+    margin-left: 0.2rem;
+}
+
+.btn{
+    background-color: sandybrown;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.scissor{
+    /* border: 2px solid navy;  */
+}
+
+.scissor img{
+    width: 5vw;
+    height: 9vh;
+    border-radius: 3px;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.chbtn{
+    margin-left: 0.2rem;
+}
+
+.btn{
+    background-color: sandybrown;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.Paper{
+    /* border: 2px solid navy;  */
+}
+
+.Paper img{
+    width: 5vw;
+    height: 9vh;
+    border-radius: 3px;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+
+.chbtn{
+    margin-left: 0.2rem;
+}
+
+.btn{
+    background-color: sandybrown;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.bot{
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center; */
+    /* margin-left: 24rem; */
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+    height: 12vh;
+}
+
+.start{
+    /* margin-left: 12rem; */
+    padding: 8px;
+    width: 12vw;
+    height: 10vh;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: coral;
+}
+
+.start:hover{
+    background-color: blueviolet;
+}
+
+#reset{
+    /* margin-left: 12rem; */
+    padding: 8px;
+    width: 12vw;
+    height: 10vh;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: coral;
+    /* margin-top: 0.4rem; */
+}
+
+#reset:hover{
+    background-color: blueviolet;
+}

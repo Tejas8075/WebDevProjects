@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper and Scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="gameContainer">
         <h2>Rock, Paper and Scissor</h2>
-        <div class="image">
-            <img src="Rock.jpg" alt="Error loading image"
-            id="selected1">
-            <p>Me</p>
-        </div>
-        <div class="image">
-            <img src="Scissor.png" alt="Error loading image"
-            id="selected2">
-            <p>Computer</p>
+        <div id="display">
+            <div class="image1">
+                <img src=""
+                id="selected1">
+                <p>Me</p>
+            </div>
+            <div class="image2">
+                <img src="" 
+                id="selected2">
+                <p>Computer</p>
+            </div>
         </div>
         <div class="imageSelection">
             <h3>Select an Image</h3>
             <div class="choose">
                 <div class="rock">
                     <img src="Rock.jpg" alt="Error loading image">
-                    <button class="btn">Rock</button>
+                    <div class="chbtn">
+                        <button class="btn">Rock</button>
+                    </div>
                 </div>
                 <div class="scissor">
                     <img src="Scissor.png" alt="Error loading image">
-                    <button class="btn">Scissor</button>
+                    <div class="chbtn">
+                        <button class="btn">Scissor</button>
+                    </div>
                 </div>
                 <div class="Paper">
                     <img src="Paper.png" alt="Error loading image">
-                    <button class="btn">Paper</button>
+                    <div class="chbtn">
+                        <button class="btn">Paper</button>
+                    </div>
                 </div>
-                <button class="start">Play</button>
-                <div><button id="reset">Reset</button></div>
             </div>
         </div>
+        <div class="bot">
+            <button class="start">Play</button>
+            <button id="reset">Reset</button>
+        </div>
     </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
